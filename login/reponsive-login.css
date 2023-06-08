@@ -1,0 +1,100 @@
+/* Mobile */
+@media (max-width:740px) {
+    /* common */
+    header{
+        align-items: flex-start !important;
+        padding: 1%;
+        height: 50px;
+    }
+    .detail{
+        margin: 35px 3%;    
+    }
+    /* header menu side*/
+    header ul li a{
+        padding-bottom: 25px;
+        font-size: 20px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.449) ;
+    }
+    header ul li{
+        padding: 45px 40px;
+        margin-left: -40px;
+        text-align: center;
+    }
+    header ul li:hover{
+        background: #F26522;
+    }
+    #nav-menu{
+        background-color: black;
+        border: 1px solid #F26522;
+        display: block !important;
+        position: fixed;
+        width: 95vw;
+        height: 85vh;
+        justify-content: center !important;
+        margin-top: 60px;
+        background-color: color;
+        transition: all 0.5s;
+        left: -100%;
+        overflow: scroll !important;
+    }
+    #nav-menu.active{
+        left: 10px;
+    }
+    i #btn-nav{
+        display: block;
+    }
+    header .logo img{
+        width: 50%;
+        top: 5px;
+        left: 30vw;
+    }
+    /* login form */
+    .loginForm-wrap{
+        margin-top: 10vh;
+    }
+    .loginForm-contain{
+        width: 100vw;
+        height: 90vh;
+        border-radius: 0px;
+        box-shadow: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .loginText{
+        width: 100vw;
+    }
+    .login-icon svg{
+        width: 50px;
+        margin-top: -30px;
+    }
+    .sm-text{
+        font-size: 20px;
+    }
+    .login-text{
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+    .login-form{
+        width: 100vw;
+    }
+    form .input-group input{
+        font-size: 15px;
+    }
+    form .input-group label{
+        font-size: 15px;
+    }
+    form .input-group input:focus + label,
+    form .input-group input:valid + label{
+    font-size: 15px;
+    }
+    .input-group .icon-eye{
+        left: 150px;
+    }
+    form .login-submit .submit-btn{
+        font-size: 15px;
+    }
+    form .forgot-pw {
+        font-size: 10px;
+    }
+}
